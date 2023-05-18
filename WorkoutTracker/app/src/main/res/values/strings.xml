@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WorkoutTracker</string>
+    <string name="weights_workout">Weights Workout</string>
+    <string name="cardio_workout">Cardio Workout</string>
+    <string name="exercise_text">Name</string>
+    <string name="type_text">Type</string>
+    <string name="sets_text">Sets</string>
+    <string name="reps_text">Reps</string>
+    <string name="weight_text">Weight</string>
+    <string name="add_exercise_text">Add Exercise</string>
+    <string name="save_text">Save</string>
+    <string name="time_text">Time</string>
+    <string name="Distance_text">Distance (km)</string>
+    <string name="not_saved_status_text">WORKOUT NOT SAVED</string>
+    <string name="saved_status_text">WORKOUT SAVED</string>
+    <string-array name="type_options">
+        <item>Abs</item>
+        <item>Arms</item>
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Legs</item>
+        <item>Shoulders</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <LinearLayout
+        android:id="@+id/homebuttons"
+        android:layout_width="395dp"
+        android:layout_height="115dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingTop="40dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:onClick="newWeightsWorkout"
+            android:text="Weight Workout" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="newCardioWorkout"
+            android:text="Cardio Workout" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:onClick="newStatistics"
+            android:text="Workout Statistics" />
+    </LinearLayout>
+    <TableLayout
+        android:id = "@+id/topworkouts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:padding="5dp"
+        android:layout_below="@+id/homebuttons">
+        <TableRow>
+
+            <TextView
+                android:background="#33978B"
+                android:padding="3dip"
+                android:text="Date" />
+
+            <TextView
+                android:background="#8491D5"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Workout" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="13/07/1998"
+                android:padding="3dip" />
+            <TextView
+                android:text="weights"
+                android:gravity="right"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
